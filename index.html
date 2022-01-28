@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codificador</title>
+  <link rel="icon" href="img/acertijo.jfif" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <h1 class="titulo">| C0D1F1C4D0R D3 T3XT0 |</h1>
+
+  <main>
+  
+    <section class="input-formBox">
+      <form class=form action="" autocomplete="off">
+        <label for="input-texto">Ingresa el mensaje que quieres encriptar:</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" spellcheck="false"
+          onkeypress="return soloLetrasMin(event)" placeholder="Solo se admiten letras, sin tilde">
+        <input class="btn" type="submit" value="Ocultar" id="btn-encriptar">
+        <input class="btn" type="submit" value="Mostrar" id="btn-desencriptar">
+        <input class="btn" type="submit" value="Limpiar" id="btn-limpiar"></input>
+      </form>
+    </section>
+
+    <section class="output-formBox">
+      <label for="resultado-msg">El mensaje encriptado es:</label>
+      <input class="text-input" type="text" id="resultado-msg" placeholder="El resultado es"></input>
+      <input class="btn" type="submit" value="Copiar" id="btn-copiar"></input>
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div class="social-data">
+      <a href="https://github.com/Ju-oogle/" target="_blank"><img class="img" src="img/githubLogo.png"
+          alt="logo-git" /></a>
+      <a href="www.linkedin.com/in/julieta-zavalla-alcala/" target="_blank"><img class="img" src="img/linkedinLogo.png"
+          alt="logo-Lin" /></a>
+      <a href="mailto: zavalla.juliet@gmail.com" target="_blank"><img class="img" src="img/emailLogo.png"
+          alt="logo-mail" /></a>
+    </div>
+    
+    <p class="signature">
+      Challenge Oracle LATAM by Alura<br /> Coded by JuOogle ★ 2022 
+    </p>
+    
+  </footer>
+
+  <script src="js/fxSoloLetras.js"></script>
+  <script src="js/fxEncriptar.js"></script>
+  <script src="js/fxDesencriptar.js"></script>
+  <script src="js/btnCopiar.js"></script>
+  <script src="js/btnLimpiar.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+html { 
+  scroll-behavior: smooth;  
+}
+
+body{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #14396d;
+  color: whitesmoke;
+  overflow: hidden;
+}
+
+.titulo {
+  position: relative; 
+  padding: 2%;
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  background-color: rgba(219, 247, 59, 0.815);
+  border-radius: 0.2em;
+  font-size: 35px;
+}
+
+.text-input {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-formBox, .output-formBox{
+  padding: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #1c4a8b;
+  border-radius: 0.2em;
+  width: 100%;
+  height: 75%;
+}
+
+.btn {
+  font-size: 20px;
+  border: solid 1px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background-color: #14396de5;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 0.5em;
+  display: inline;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(22, 22, 22, 0.89);
+  display: block;
+  margin-top: 12px;
+  padding: 0.5em;
+  width: 50%;
+  height: 80px;
+}
+
+.img {
+  width:40px;
+  height: 40px;
+}
+ 
+footer.social {
+  margin: 20px;
+  display:inline;
+  padding: 10px;
+}
+  
+footer.signature {
+  font-size:10px;
+}
+  
