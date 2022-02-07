@@ -5,9 +5,5 @@ let botonCopiar = document.querySelector("btn-copiar");
 function msgCopiar() {
   let textoCopiado = document.querySelector("#resultado-msg").value;
     navigator.clipboard.writeText(textoCopiado);
+    alert("copied!");
 }
-
-botonCopiar.addEventListener("click", function(event) {
-  event.preventDefault();
-  msgCopiar();
-});
