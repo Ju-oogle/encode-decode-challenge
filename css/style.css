@@ -6,6 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+  text-transform:lowercase;
 }
 
 html { 
